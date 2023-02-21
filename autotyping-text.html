@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="glass">
+        <h1>I'm <span class="auto-type"></span></h1>
+    </div>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins' sans-serif;
+        }
+        .glass
+        {
+            width: 100%;
+            height: 100vh;
+            background: #2b323c;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .glass h1{
+            font-size: 80px;
+            font-weight: 500;
+        }
+        .glass span
+        {
+            color: rgb(221, 253, 13);
+        }
+        @media (max-width:776px)
+        {
+            .glass h1
+            {
+                font-size: 30px;
+                font-weight:200;
+
+            }
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: [  "Techguruhacks", "Back on Youtube!","Programmer!","Web Developer!","Android Developer!","Ethical Hacker!",],
+            typeSpeed: 80,
+            backSpeed:90,
+            loop: true
+        })</script>
+       
+    
+</body>
+</html>
